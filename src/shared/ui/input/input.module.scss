@@ -1,0 +1,16 @@
+.input {
+  background-color: var(--foreground);
+  border: 1px solid var(--input);
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: 4px;
+  max-width: 24rem;
+  display: inline-block;
+  color: var(--background);
+}
+
+.error {
+  color: var(--destructive);
+  margin-top: 0.5rem;
+}

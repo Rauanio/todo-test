@@ -1,0 +1,21 @@
+.todoItem {
+  display: flex;
+  align-items: center;
+  background-color: var(--foreground);
+  border-radius: 4px;
+  color: var(--primary-foreground);
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.todo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.checkbox {
+  height: 1.4rem;
+  width: 1.4rem;
+}
